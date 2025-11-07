@@ -118,7 +118,33 @@ button{
 
 /* Qoute section */
 
-.quote{
+.quote-section{
     width: 100%;
-    height: auto;
+    height: 400px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0px;
+    width: 550px;
+}
+
+.quote{
+    display: block;
+}
+.tex{
+    font-weight: 300px;
+    font-size: 36px;
+    color: #1F2937;
+}
+.person{
+    display: flex;
+    justify-content: flex-end;
+    font-size: x-large;
+    font-weight: 600;
 }
