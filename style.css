@@ -136,6 +136,7 @@ button{
 
 .quote{
     display: block;
+    margin-bottom: 0;
 }
 .tex{
     font-weight: 300px;
@@ -145,6 +146,36 @@ button{
 .person{
     display: flex;
     justify-content: flex-end;
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+/*signup section*/
+
+.signup{
+    display: flex;
+    justify-content: center;
+}
+.login{
+    display: flex;
+    background-color: #3882F6;
+    width: 800px;
+    justify-content: space-around;
+    align-content: center;
+    border-radius: 15px;
+    margin: 100px 300px;
+    align-items: baseline;
+    color: white;
+}
+.login>div>button{
+    border: 1px solid white;
+    display: flex;
+    align-self: center;
+    justify-content: baseline;
+    margin-top: 10px;
+}
+span{
     font-size: x-large;
     font-weight: 600;
 }
