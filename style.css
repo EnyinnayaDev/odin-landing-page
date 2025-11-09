@@ -179,3 +179,12 @@ span{
     font-size: x-large;
     font-weight: 600;
 }
+
+/* Footer*/
+footer{
+    color: #E5E7EB;
+    background-color: #1F2937;
+    padding: 40px;
+    justify-content: center;
+    text-align: center;
+}
